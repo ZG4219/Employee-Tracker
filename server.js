@@ -195,12 +195,12 @@ function addEmployee() {
         },
         {
             name: "role_id",
-            type: "number",
+            type: "input",
             message: "Please enter the role id associated with the employee you want to add to the database. Enter ONLY numbers."
         },
         {
             name: "manager_id",
-            type: "number",
+            type: "input",
             message: "Please enter the manager's id associated with the employee you want to add to the database. Enter ONLY numbers."
         }
 
@@ -356,7 +356,7 @@ function deleteEmployee() {
 });
 };
 
-// // View employee by manager
+// View employee by manager
 // function viewAllEmpByManager() {
 //     const sql = `  SELECT 
 //             CONCAT(manager.first_name, ' ' ,manager.last_name) AS manager,
@@ -381,5 +381,5 @@ function deleteEmployee() {
 //       });
 // }
 
-// Call to start app
+//Call to start app
 startPrompt();
