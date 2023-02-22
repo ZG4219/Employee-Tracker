@@ -25,3 +25,7 @@ This is a Node.js application that allows users to view and manage the employees
 ## Licence 
 This project is licenced under the MIT License.
 
+## Link
+
+- Github: https://github.com/ZG4219/Employee-Tracker
+- Video: https://drive.google.com/file/d/1KPjBdcPFcDMhEENTi9uihauOD81FdxGp/view
