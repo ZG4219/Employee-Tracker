@@ -13,13 +13,13 @@ This is a Node.js application that allows users to view and manage the employees
 
   -  `npm install`
 
-- Create a MySql database named "employee_db" and run the `schema.sql` and `seeds.sql` files to create the tables and insert sample data.
-- Update the `index.js` file with your MySql credentials.
+- Create a MySql database named "employee_db" and run the `schema.sql` and `seed.sql` files to create the tables and insert sample data.
+- Update the `server.js` file with your MySql credentials.
 
 ## Usage 
 
 - Start the application 
-  - `npm start`
+  - `node server.js`
 - The application will connect to the MySQL database and retrieve all employees from the `employees` table. The results will be logged to the console.
 
 ## Licence 
