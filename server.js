@@ -160,7 +160,7 @@ function addRole() {
         },
         {
             name: "department_id",
-            type: "number",
+            type: "input",
             message: "Please enter the department's id associated with the role you want to add to the database."
         }
     ]).then(function (response) {
@@ -231,7 +231,7 @@ function updateEmployeeRole() {
         },
         {
             name: "role_id",
-            type: "number",
+            type: "input",
             message: "Please enter the new role number id associated with the employee you want to update in the database. Enter ONLY numbers."
         }
     ]).then(function (response) {
